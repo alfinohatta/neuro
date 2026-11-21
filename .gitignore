@@ -1,0 +1,103 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ── Android ───────────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Android local machine configuration — NEVER commit this
+local.properties
+
+# Android Gradle caches
+.gradle/
+.cxx/
+app/.cxx/
+captures/
+.externalNativeBuild/
+
+# Android signing keystores — NEVER commit keystores or key passwords
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+release-keystore.properties
+
+# ── Secrets & Credentials ─────────────────────────────────────────────────────
+# Environment files — NEVER commit populated .env files
+.env
+.env.*
+!.env.example
+
+# Spring Boot local overrides with real credentials
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+
+# Private keys and certificates
+*.pem
+*.p12
+*.cer
+*.pfx
+id_rsa
+id_ed25519
+
+# Google Services — contains project/API config; add via CI secret if needed
+google-services.json
+GoogleService-Info.plist
+
+# ── Build & Dependency outputs ────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Gradle wrapper (keep gradlew scripts, skip the binary jar)
+gradle/wrapper/gradle-wrapper.jar
+
+# Maven wrapper binary
+.mvn/wrapper/maven-wrapper.jar
+
+# Node / npm (if any tooling scripts present)
+node_modules/
+npm-debug.log*
